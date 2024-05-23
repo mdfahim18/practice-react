@@ -15,6 +15,12 @@ const Layout = () => {
       >
         Random Color
       </Link>
+      <Link
+        to='/star-rating'
+        className=' font-semibold text-lg  text-center border-2 py-2'
+      >
+        Star Rating
+      </Link>
     </nav>
   );
 };
