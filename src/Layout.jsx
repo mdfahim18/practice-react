@@ -21,6 +21,12 @@ const Layout = () => {
       >
         Star Rating
       </Link>
+      <Link
+        to='/image-slider'
+        className=' font-semibold text-lg  text-center border-2 py-2'
+      >
+        Image Slider
+      </Link>
     </nav>
   );
 };
