@@ -27,6 +27,12 @@ const Layout = () => {
       >
         Image Slider
       </Link>
+      <Link
+        to='/load-more-data'
+        className=' font-semibold text-lg  text-center border-2 py-2'
+      >
+        Load more data
+      </Link>
     </nav>
   );
 };
