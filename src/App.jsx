@@ -5,6 +5,8 @@ import RandomColor from './components/random-color/RandomColor';
 import StarRating from './components/star-rating/StarRating';
 import ImageSlider from './components/image-slider/ImageSlider';
 import LoadMoreData from './components/load-more-data/LoadMoreData';
+import TreeMenu from './components/TreeManu/TreeMenu';
+import menus from './components/TreeManu/data';
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
             }
           />
           <Route path='/load-more-data' element={<LoadMoreData />} />
+          <Route path='/tree-menu' element={<TreeMenu menus={menus} />} />
         </Routes>
       </BrowserRouter>
     </div>

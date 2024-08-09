@@ -33,6 +33,12 @@ const Layout = () => {
       >
         Load more data
       </Link>
+      <Link
+        to='/tree-menu'
+        className=' font-semibold text-lg  text-center border-2 py-2'
+      >
+        Tree menu
+      </Link>
     </nav>
   );
 };
